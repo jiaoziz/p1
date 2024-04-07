@@ -1,0 +1,107 @@
+.Radio {
+    text-align: right;
+    margin: 10px 20px;
+}
+
+.space {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.card {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+@media (min-width: 1369px) {
+    .card {
+        width: calc(100% / 4 - 20px);
+
+    }
+}
+
+@media (min-width: 996px) and (max-width: 1369px) {
+    .card {
+        width: calc(100% / 3 - 20px);
+    }
+}
+
+@media (min-width: 690px) and (max-width: 996px) {
+    .card {
+        width: calc(100% / 2 - 20px);
+    }
+}
+@media (max-width: 690px) {
+    .card {
+        width: calc(100% - 20px);
+    }
+}
+
+
+.img {
+    width: 65px;
+    height: 65px;
+}
+
+.ant-card-meta-avatar {
+    line-height: 65px;
+}
+
+.ant-card-meta-title {
+    margin-bottom: 0 !important;
+}
+
+.info {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 14px;
+}
+
+.fontSize10 {
+    font-size: 10px;
+}
+
+.fontSize16 {
+    font-size: 14px !important;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dotBox {
+    font-size: 10px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+}
+
+.dot, .dot14 {
+    display: inline-block;
+    margin-right: 3px;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: rgb(24, 144, 255)
+}
+
+.dotBlueColor {
+    background-color: rgb(24, 144, 255)
+}
+.dotRedColor {
+    background-color: rgb(255, 0, 0)
+}
